@@ -1,7 +1,10 @@
 <x-guest-layout>
     <x-authentication-card>
         <x-slot name="logo">
-            <x-authentication-card-logo />
+            <a href="">
+                <x-authentication-card-logo />
+            </a>
+
         </x-slot>
 
         <x-validation-errors class="mb-4" />
