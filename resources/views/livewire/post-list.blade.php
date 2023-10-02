@@ -3,6 +3,7 @@
 
     <div class="flex  justify-between items-center border-b border-gray-100">
         <div>
+          
             @if ($search)
                 <p>Search : {{$search}}</p>
             @else
